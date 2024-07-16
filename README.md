@@ -22,7 +22,7 @@ Este projeto é um exemplo de como criptografar e descriptografar dados usando N
 
 1. Clone o repositório:
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/devlucasmart/encrypt-data-api.git)
+    git clone [https://github.com/devlucasmart/encrypt-data-api.git)
     ```
 2. Navegue até o diretório do projeto:
     ```bash
