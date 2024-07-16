@@ -4,8 +4,8 @@ import * as crypto from 'crypto';
 @Injectable()
 export class AppService {
   private readonly algorithm = 'aes-256-cbc';
-  private readonly key = Buffer.from('01234567890123456789012345678901'); // Use uma chave fixa e segura em produção
-  private readonly iv = Buffer.from('0123456789012345'); // Use um IV fixo e seguro em produção
+  private readonly key = Buffer.from('01234567890123456789012345678901');
+  private readonly iv = Buffer.from('0123456789012345');
 
   encrypt(text: string): string {
     const cipher = crypto.createCipheriv(this.algorithm, this.key, this.iv);
